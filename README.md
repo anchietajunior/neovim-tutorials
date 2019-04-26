@@ -68,6 +68,8 @@ let mapleader="\<space>"
 
 In this case i set my space bar as Leader key, now i can add another keys after Leader and execute something:
 
+### Map keys
+
 ```
 nmap <leader>q :q<CR>
 ```
