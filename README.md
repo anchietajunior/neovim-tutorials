@@ -20,7 +20,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 Create ~/.config/nvim/init.vim file and add plugins.
 Add this to the beggining of the init.vim file:
 
-```
+```nvim
 call plug#begin()
 call plug#end()
 ```
@@ -29,7 +29,7 @@ call plug#end()
 
 To add some plugins, just put between the begin and end calls the plugins you wanto to install like this:
 
-```
+```nvim
 call plug#begin()
 
 " NERDTree - File navigation
