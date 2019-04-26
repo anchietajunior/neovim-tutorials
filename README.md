@@ -62,7 +62,7 @@ You can define a Leader key in vim and bind it with others keys to execute comma
 
 ### Define Leader
 
-```
+```nvim
 let mapleader="\<space>"
 ```
 
@@ -70,7 +70,7 @@ In this case i set my space bar as Leader key, now i can add another keys after 
 
 ### Map keys
 
-```
+```nvim
 nmap <leader>q :q<CR>
 ```
 
