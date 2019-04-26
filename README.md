@@ -56,3 +56,20 @@ Plug 'scrooloose/nerdtree'
 call plug#end()
 ```
 
+## Defining Leader and Mapping keys
+
+You can define a Leader key in vim and bind it with others keys to execute commands or tasks.
+
+### Define Leader
+
+```
+let mapleader="\<space>"
+```
+
+In this case i set my space bar as Leader key, now i can add another keys after Leader and execute something:
+
+```
+nmap <leader>q :q<CR>
+```
+
+With the <CR> tag i tell vim to hit my Return key at the command's end.
